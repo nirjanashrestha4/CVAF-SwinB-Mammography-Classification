@@ -10,25 +10,6 @@
 > **Year:** 2026
 
 ---
-## Clinical Motivation
-
-Breast cancer progresses through distinct tissue transformation stages.
-Early detection via accurate mammography classification is critical for
-improving patient outcomes.
-
-<div align="center">
-  <img src="images/Picture1.png" alt="Breast Cancer">
-</div>
-
-<div align="center">
-
-  *Figure 1 — Progressive stages of breast tissue transformation from
-normal epithelium to invasive ductal carcinoma*
-
-</div>
-
----
-
 
 ## Overview
 
@@ -42,7 +23,7 @@ using four-view screening mammography (L-CC, L-MLO, R-CC, R-MLO).
 
 <div align="center">
   
-*Figure 2 — Four view image*
+*Figure 1 — Four view image*
 
 </div>
 CVAF-SwinB addresses the critical challenge of class imbalance in medical imaging
@@ -59,7 +40,7 @@ by combining a shared Swin-B backbone with two clinically-motivated fusion modul
 
 <div align="center">
   
-*Figure 3 — Full CVAF-SwinB architecture showing the shared Swin-B backbone,
+*Figure 2 — Full CVAF-SwinB architecture showing the shared Swin-B backbone,
 Asymmetric Lateral Fusion, Bilateral Contralateral Fusion, and
 Gated Global Aggregation modules*
 
@@ -77,7 +58,7 @@ Gated Global Aggregation modules*
 
 <div align="center">
   
-*Figure 6 — CVAF-SwinB training and validation curve progression*
+*Figure 3 — CVAF-SwinB training and validation curve progression*
 </div>div>
 
 ### Confusion Matrix
@@ -87,7 +68,7 @@ Gated Global Aggregation modules*
 
 <div align="center">
   
-*Figure 7 — Confusion matrix of the proposed CVAF-SwinB model*
+*Figure 4 — Confusion matrix of the proposed CVAF-SwinB model*
 </div>
 
 ### Test Metrics Summary
@@ -98,7 +79,7 @@ Gated Global Aggregation modules*
 
 <div align="center">
   
-*Figure 8 — Full test metrics of the proposed CVAF-SwinB model*
+*Figure 5 — Full test metrics of the proposed CVAF-SwinB model*
 </div>
 
 
@@ -110,7 +91,7 @@ Gated Global Aggregation modules*
 
 <div align="center">
   
-*Figure 9 — Sensitivity, Specificity, F1, and Balanced Accuracy
+*Figure 6 — Sensitivity, Specificity, F1, and Balanced Accuracy
 across decision thresholds τ = 0.10 to 0.90*
 </div>
 
@@ -126,7 +107,7 @@ across decision thresholds τ = 0.10 to 0.90*
 
 <div align="center">
   
-*Figure 10 — Full evaluation metrics for Strategy 2*
+*Figure 7 — Full evaluation metrics for Strategy 2*
 </div>
 
 <div align="center">
@@ -135,7 +116,7 @@ across decision thresholds τ = 0.10 to 0.90*
 
 <div align="center">
   
-*Figure 11 — Strategy 2 confusion matrix at default threshold τ = 0.50*
+*Figure 8 — Strategy 2 confusion matrix at default threshold τ = 0.50*
 </div>
 
 <div align="center">
@@ -144,7 +125,7 @@ across decision thresholds τ = 0.10 to 0.90*
 
 <div align="center">
 
-*Figure 12 — Strategy 2 confusion matrix at optimal threshold τ = 0.90*
+*Figure 9 — Strategy 2 confusion matrix at optimal threshold τ = 0.90*
 </div>
 
 
@@ -157,7 +138,7 @@ across decision thresholds τ = 0.10 to 0.90*
 <div align="center">
 
 
-*Figure 13 — Training curve for Strategy 3 (3:1 undersampling)*
+*Figure 10 — Training curve for Strategy 3 (3:1 undersampling)*
 </div>
 
 <div align="center">
@@ -166,7 +147,7 @@ across decision thresholds τ = 0.10 to 0.90*
 
 <div align="center">
 
-*Figure 14 — Full evaluation results for Strategy 3*
+*Figure 11 — Full evaluation results for Strategy 3*
 </div>
 
 ### Strategy 4 — 3:1 Oversampling
@@ -177,7 +158,7 @@ across decision thresholds τ = 0.10 to 0.90*
 
 <div align="center">
 
-*Figure 15 — Training curve for Strategy 4 (3:1 oversampling)*
+*Figure 12 — Training curve for Strategy 4 (3:1 oversampling)*
 </div>
 
 <div align="center">
@@ -186,7 +167,7 @@ across decision thresholds τ = 0.10 to 0.90*
 
 <div align="center">
 
-*Figure 16 — Full evaluation results for Strategy 4*
+*Figure 13 — Full evaluation results for Strategy 4*
 </div>
 
 ### Ablation Study — Contribution of Each Fusion Component
@@ -196,7 +177,7 @@ across decision thresholds τ = 0.10 to 0.90*
 </div>
 <div align='center'>
   
-*Figure 2 — Ablation study results comparing SingleView, LateralOnly,
+*Figure 14 — Ablation study results comparing SingleView, LateralOnly,
 BilateralOnly, and Full CVAF-SwinB configurations*
 </div>
 
