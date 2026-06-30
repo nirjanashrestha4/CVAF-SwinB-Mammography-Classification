@@ -59,7 +59,7 @@ Gated Global Aggregation modules*
 <div align="center">
   
 *Figure 3 — CVAF-SwinB training and validation curve progression*
-</div>div>
+</div>
 
 ### Confusion Matrix
 <div align="center">
