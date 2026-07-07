@@ -35,7 +35,7 @@ by combining a shared Swin-B backbone with two clinically-motivated fusion modul
 ## Model Architecture
 
 <div align="center">
-  <img src="images/Picture 5.png" alt="CVAF-SwinB Architecture">
+  <img src="images/picture 5.png" alt="CVAF-SwinB Architecture">
 </div>
 
 <div align="center">
