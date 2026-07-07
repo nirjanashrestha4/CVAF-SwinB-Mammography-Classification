@@ -35,7 +35,7 @@ by combining a shared Swin-B backbone with two clinically-motivated fusion modul
 ## Model Architecture
 
 <div align="center">
-  <img src="images/Picture5.png" alt="CVAF-SwinB Architecture">
+  <img src="images/Picture 5.png" alt="CVAF-SwinB Architecture">
 </div>
 
 <div align="center">
@@ -86,7 +86,7 @@ Gated Global Aggregation modules*
 ### Metrics vs Decision Threshold
 
 <div align="center">
-  <img src="images/Picture10.png" alt="Metrics vs Threshold]">
+  <img src="images/Picture 10.png" alt="Metrics vs Threshold]">
 </div>
 
 <div align="center">
